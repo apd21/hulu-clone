@@ -1,4 +1,4 @@
-.header{
+.header {
     color:white;
     display: flex;
     padding: 20px;
@@ -9,40 +9,39 @@
 }
 
 /* Hide scrilbar for chrome, safari and opera */
-.header::-webkit-scrollbar{
+.header::-webkit-scrollbar {
     display: none;
 }
 /* Hide scrilbar for firefox, Edge and IE */
-
-.header{
+.header {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-.header > img{
+.header > img {
     object-fit: contain;
     height: 80px    ;
 }
 
-.header__icons{
+.header__icons {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.header__icon > .MuiSvgIcon-root{
+.header__icon > .MuiSvgIcon-root {
   /* margin: auto;   */
   margin-left: auto;
   margin-right: auto;
 }
 
-.header__icon--active > p{
+.header__icon--active > p {
     display: inline-flex !important;
 }
 .header__icon:hover > p {
     display: inline-flex;
 }
 
-.header__icon > p{
+.header__icon > p {
     display: none;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -51,7 +50,7 @@
     font-size: small;
 }
 
-.header__icon{
+.header__icon {
     display: flex;
     flex-direction: column;
     width: 100px;
